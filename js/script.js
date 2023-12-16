@@ -92,5 +92,4 @@ const sr = ScrollReveal({
 })
 sr.reveal(`.hero, .socials, footer, .contact-left, form, .brand-container`)
 sr.reveal(`.about-image, .logo-container`, {origin: 'right'})
-sr.reveal(`.hero-image`, {origin: 'bottom'})
 sr.reveal(`#about, .services-container, .portfolio-container, .graphics-projects`, {origin: 'left'})
