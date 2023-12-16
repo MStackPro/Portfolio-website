@@ -1,0 +1,98 @@
+h2{
+    margin: 1rem 0;
+}
+h5{
+    text-align: center;
+    color: #fff;
+}
+span{
+    font-weight: 200;
+    font-size: 14px;
+}
+nav{
+    position: fixed;
+    top: 0;
+    background: #000;
+}
+/* ================ PORTFOLIO PROJECTS =============== */
+#portfolio{
+    margin-top: 1rem
+}
+/* ===================GRAPHICS DESIGN PROJECTS ================ */
+.graphics{
+    margin-top: 3rem;
+}
+.graphics-projects{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.graphics-projects .card img{
+    height: 15rem;
+    display: block;
+    overflow: hidden;
+}
+.graphics-projects .card{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* ============ LOGO PROJECTS ================== */
+.logo-container{
+    margin-top: 3rem;
+}
+.logo-projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.logo-projects .card img{
+    display: block;
+    overflow: hidden;
+}
+.logo-projects .card{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* ============ BRANDING PROJECTS ================== */
+.brand-container{
+    margin-top: 3rem;
+}
+.branding-projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.branding-projects .card img{
+    display: block;
+    overflow: hidden;
+}
+.branding-projects .card{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* ======================= MEDIA QUERIES (TABLETS) =================== */
+@media screen and (max-width: 1024px) {
+    .graphics-projects{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+
+/* ======================= MEDIA QUERIES (PHONES) =================== */
+@media screen and (max-width: 600px) {
+    .graphics-projects{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .logo-projects{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .branding-projects{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
